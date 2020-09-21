@@ -1,0 +1,18 @@
+package com.firstjava;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    int x, y;
+
+	    y = 30;
+
+	    // the target of this loop is a block
+        for(x = 0; x<20; x++) {
+            System.out.println("This is x: " + x);
+            System.out.println("This is y " + y);
+            y = y - 4;
+
+        }
+    }
+}
